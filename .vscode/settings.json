@@ -1,0 +1,10 @@
+{
+  "cSpell.words": ["actix", "dotenv", "Proailurus", "reqwest"],
+  "rust-analyzer.runnableEnv": [
+    {
+      "env": {
+        "ENV": "test"
+      }
+    }
+  ]
+}

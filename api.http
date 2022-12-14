@@ -1,0 +1,11 @@
+### all cat facts ###
+GET http://localhost:8888/api/v1/cats/
+
+### a random cat facts ###
+GET http://localhost:8888/api/v1/cats/random
+
+### all dog facts ###
+GET http://localhost:8888/api/v1/dogs/
+
+### a dog  ###
+GET http://localhost:8888/api/v1/dogs/4
