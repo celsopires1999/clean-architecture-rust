@@ -8,4 +8,4 @@ WORKDIR /home/rust/app
 
 EXPOSE 8888
 
-CMD ["tail", "-f", "/dev/null"]
+# CMD ["tail", "-f", "/dev/null"]

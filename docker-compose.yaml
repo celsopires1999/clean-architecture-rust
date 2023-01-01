@@ -1,10 +1,10 @@
-# Use postgres/example user/password credentials
-version: '3.1'
+version: "3.1"
 
 services:
   app:
     build: .
     container_name: clean-arch-rust
+    command: .docker/start.sh
     volumes:
       - .:/home/rust/app
     ports:
@@ -24,4 +24,3 @@ services:
     restart: always
     ports:
       - 8080:8080
-      

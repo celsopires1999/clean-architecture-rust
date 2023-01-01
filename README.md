@@ -28,6 +28,12 @@ diesel setup --database-url postgresql://postgres:postgres@db/animal_fact_db_rs
 diesel migration run --database-url postgresql://postgres:postgres@db/animal_fact_db_rs
 ```
 
+# To create a self-signed temporary cert for testing
+
+```bash
+openssl req -x509 -newkey rsa:4096 -nodes -keyout key.pem -out cert.pem -days 365 -subj '/CN=localhost'
+```
+
 # Running
 
 define the environment on which we're running by adding `ENV=<env>`, which will use the `.env.<env>` file
