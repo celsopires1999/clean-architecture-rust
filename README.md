@@ -24,8 +24,8 @@ I suggest
 Then install [diesel_cli](https://lib.rs/crates/diesel_cli)
 
 ```bash
-diesel setup --database-url postgresql://postgres:postgres@localhost/animal_fact_db_rs
-diesel migration run --database-url postgresql://postgres:postgres@localhost/animal_fact_db_rs
+diesel setup --database-url postgresql://postgres:postgres@db/animal_fact_db_rs
+diesel migration run --database-url postgresql://postgres:postgres@db/animal_fact_db_rs
 ```
 
 # Running

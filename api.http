@@ -8,4 +8,4 @@ GET http://localhost:8888/api/v1/cats/random
 GET http://localhost:8888/api/v1/dogs/
 
 ### a dog  ###
-GET http://localhost:8888/api/v1/dogs/4
+GET http://localhost:8888/api/v1/dogs/1
